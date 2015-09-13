@@ -6,16 +6,31 @@
 //  Copyright (c) 2015 Pierre Karashchuk. All rights reserved.
 //
 
+
 import UIKit
 
 @UIApplicationMain
+
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Ask user for permision to show local notifications
+        if(UIApplication.instancesRespondToSelector(Selector("registerUserNotificationSettings:")))
+        {
+            application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: UIUserNotificationType.Sound | UIUserNotificationType.Alert | UIUserNotificationType.Badge, categories: nil))
+        }
+        else
+        {
+            //do iOS 7 stuff, which is pretty much nothing for local notifications.
+        }
+        
+     
+
         return true
     }
 

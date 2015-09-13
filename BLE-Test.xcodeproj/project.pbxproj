@@ -13,6 +13,16 @@
 		8F5B7AAD1BA55E7D007BDEA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F5B7AAC1BA55E7D007BDEA0 /* Images.xcassets */; };
 		8F5B7AB01BA55E7D007BDEA0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F5B7AAE1BA55E7D007BDEA0 /* LaunchScreen.xib */; };
 		8F5B7ABC1BA55E7D007BDEA0 /* BLE_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B7ABB1BA55E7D007BDEA0 /* BLE_TestTests.swift */; };
+		8F5B7AC61BA5B9C3007BDEA0 /* BluetoothController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B7AC51BA5B9C3007BDEA0 /* BluetoothController.swift */; };
+		8F5B7AC81BA5BA08007BDEA0 /* BLEPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B7AC71BA5BA08007BDEA0 /* BLEPeripheral.swift */; };
+		8F5B7ACB1BA5BC39007BDEA0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B7AC91BA5BC39007BDEA0 /* Constants.swift */; };
+		8F5B7ACC1BA5BC39007BDEA0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B7ACA1BA5BC39007BDEA0 /* Extensions.swift */; };
+		8F5B7ACE1BA5BD95007BDEA0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F5B7ACD1BA5BD95007BDEA0 /* QuartzCore.framework */; };
+		8F5B7AD01BA5BD9D007BDEA0 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F5B7ACF1BA5BD9D007BDEA0 /* CoreBluetooth.framework */; };
+		8F5B7AD21BA5BDA4007BDEA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F5B7AD11BA5BDA4007BDEA0 /* UIKit.framework */; };
+		8F5B7AD41BA5BDB0007BDEA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F5B7AD31BA5BDB0007BDEA0 /* Foundation.framework */; };
+		8F5B7AD61BA5BDB7007BDEA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F5B7AD51BA5BDB7007BDEA0 /* CoreGraphics.framework */; };
+		8F5B7AD91BA5C2BC007BDEA0 /* BLEDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B7AD81BA5C2BC007BDEA0 /* BLEDevice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,16 @@
 		8F5B7AB51BA55E7D007BDEA0 /* BLE-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLE-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F5B7ABA1BA55E7D007BDEA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F5B7ABB1BA55E7D007BDEA0 /* BLE_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLE_TestTests.swift; sourceTree = "<group>"; };
+		8F5B7AC51BA5B9C3007BDEA0 /* BluetoothController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothController.swift; sourceTree = "<group>"; };
+		8F5B7AC71BA5BA08007BDEA0 /* BLEPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEPeripheral.swift; sourceTree = "<group>"; };
+		8F5B7AC91BA5BC39007BDEA0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8F5B7ACA1BA5BC39007BDEA0 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8F5B7ACD1BA5BD95007BDEA0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8F5B7ACF1BA5BD9D007BDEA0 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		8F5B7AD11BA5BDA4007BDEA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F5B7AD31BA5BDB0007BDEA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F5B7AD51BA5BDB7007BDEA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F5B7AD81BA5C2BC007BDEA0 /* BLEDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEDevice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +63,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F5B7AD61BA5BDB7007BDEA0 /* CoreGraphics.framework in Frameworks */,
+				8F5B7AD41BA5BDB0007BDEA0 /* Foundation.framework in Frameworks */,
+				8F5B7AD21BA5BDA4007BDEA0 /* UIKit.framework in Frameworks */,
+				8F5B7AD01BA5BD9D007BDEA0 /* CoreBluetooth.framework in Frameworks */,
+				8F5B7ACE1BA5BD95007BDEA0 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				8F5B7AA21BA55E7D007BDEA0 /* BLE-Test */,
+				8F5B7AD71BA5BF11007BDEA0 /* Frameworks */,
 				8F5B7AB81BA55E7D007BDEA0 /* BLE-TestTests */,
 				8F5B7AA11BA55E7D007BDEA0 /* Products */,
 			);
@@ -79,6 +105,9 @@
 			children = (
 				8F5B7AA51BA55E7D007BDEA0 /* AppDelegate.swift */,
 				8F5B7AA71BA55E7D007BDEA0 /* ViewController.swift */,
+				8F5B7AC71BA5BA08007BDEA0 /* BLEPeripheral.swift */,
+				8F5B7AD81BA5C2BC007BDEA0 /* BLEDevice.swift */,
+				8F5B7AC51BA5B9C3007BDEA0 /* BluetoothController.swift */,
 				8F5B7AA91BA55E7D007BDEA0 /* Main.storyboard */,
 				8F5B7AAC1BA55E7D007BDEA0 /* Images.xcassets */,
 				8F5B7AAE1BA55E7D007BDEA0 /* LaunchScreen.xib */,
@@ -90,6 +119,8 @@
 		8F5B7AA31BA55E7D007BDEA0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8F5B7AC91BA5BC39007BDEA0 /* Constants.swift */,
+				8F5B7ACA1BA5BC39007BDEA0 /* Extensions.swift */,
 				8F5B7AA41BA55E7D007BDEA0 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +141,18 @@
 				8F5B7ABA1BA55E7D007BDEA0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F5B7AD71BA5BF11007BDEA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F5B7AD51BA5BDB7007BDEA0 /* CoreGraphics.framework */,
+				8F5B7AD31BA5BDB0007BDEA0 /* Foundation.framework */,
+				8F5B7AD11BA5BDA4007BDEA0 /* UIKit.framework */,
+				8F5B7ACF1BA5BD9D007BDEA0 /* CoreBluetooth.framework */,
+				8F5B7ACD1BA5BD95007BDEA0 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +255,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F5B7ACB1BA5BC39007BDEA0 /* Constants.swift in Sources */,
+				8F5B7AD91BA5C2BC007BDEA0 /* BLEDevice.swift in Sources */,
+				8F5B7ACC1BA5BC39007BDEA0 /* Extensions.swift in Sources */,
 				8F5B7AA81BA55E7D007BDEA0 /* ViewController.swift in Sources */,
+				8F5B7AC81BA5BA08007BDEA0 /* BLEPeripheral.swift in Sources */,
+				8F5B7AC61BA5B9C3007BDEA0 /* BluetoothController.swift in Sources */,
 				8F5B7AA61BA55E7D007BDEA0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +392,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "BLE-Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;

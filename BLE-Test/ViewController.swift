@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var bluetooth:BluetoothController?;
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        bluetooth = BluetoothController(delegate: self)
     }
 
     override func didReceiveMemoryWarning() {
