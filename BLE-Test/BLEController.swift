@@ -26,7 +26,7 @@ enum ConnectionStatus:Int {
 }
 
 
-class BluetoothController: NSObject, CBCentralManagerDelegate, BLEPeripheralDelegate {
+class BLEController: NSObject, CBCentralManagerDelegate, BLEPeripheralDelegate {
     private var cm:CBCentralManager?
     private var currentAlertView:UIAlertController?
     private var currentPeripheral:BLEPeripheral?
